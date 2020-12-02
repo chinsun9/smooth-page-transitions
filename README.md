@@ -2,6 +2,10 @@
 
 - [Smooth Page Transitions With Javascript Tutorial](https://www.youtube.com/watch?v=1dJT-99KpiI) 따라하기
 
+## 결과
+
+- https://chinsun9.github.io/smooth-page-transitions/
+
 ## 사용한 이미지
 
 - Christmas food and drinks 아이콘 팩
@@ -22,7 +26,11 @@ npm i @dogstudio/highway
 
 ```
 parcel index.html
+
+parcel build index.html --out-dir docs --public-url ./
 ```
+
+- 깃허브 페이지로 배포할 때, 위 옵션을 넣어서 parcel build
 
 ## parcel
 
