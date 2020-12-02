@@ -19,5 +19,8 @@
   "homepage": "https://github.com/chinsun9/smooth-page-transitions#readme",
   "devDependencies": {
     "sass": "^1.29.0"
+  },
+  "dependencies": {
+    "gsap": "^3.5.1"
   }
 }
