@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/chinsun9/smooth-page-transitions/issues"
   },
-  "homepage": "https://github.com/chinsun9/smooth-page-transitions#readme"
+  "homepage": "https://github.com/chinsun9/smooth-page-transitions#readme",
+  "devDependencies": {
+    "sass": "^1.29.0"
+  }
 }
