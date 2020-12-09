@@ -43,10 +43,6 @@ class Fade2 extends Highway.Transition {
         width: "100%",
         height: "90vh",
         duration: 0.5,
-        onComplete: () => {
-          from.remove();
-          done();
-        },
       }
     )
       .fromTo(
@@ -55,7 +51,18 @@ class Fade2 extends Highway.Transition {
         { borderRadius: "0%", duration: 0.6 },
         +0.2
       )
-      .fromTo(to.children[0], { opacity: 0 }, { opacity: 1, duration: 0.5 });
+      .fromTo(
+        to.children[0],
+        { opacity: 0 },
+        {
+          opacity: 1,
+          duration: 0.5,
+          onComplete: () => {
+            from.remove();
+            done();
+          },
+        }
+      );
   }
   out({ done }) {
     done();
