@@ -18,8 +18,8 @@
   },
   "homepage": "https://github.com/chinsun9/smooth-page-transitions#readme",
   "devDependencies": {
-    "cssnano": "^4.1.10",
-    "sass": "^1.29.0"
+    "cssnano": "^5.0.3",
+    "sass": "^1.32.13"
   },
   "dependencies": {
     "@dogstudio/highway": "^2.2.1",
