@@ -11,6 +11,20 @@
 - Christmas food and drinks 아이콘 팩
 <div>아이콘 제작자 <a href="https://www.flaticon.com/kr/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/kr/" title="Flaticon">www.flaticon.com</a></div>
 
+## 실행
+
+### 필요 종속성
+
+- parcel ; 이 프로젝트 package.json에 포함되어 있지 않아 실행해 보려면 각자 수동 설치 필요
+
+### 커맨드
+
+```sh
+yarn
+
+parcel index.html
+```
+
 ## setup
 
 ```cmd terminal
