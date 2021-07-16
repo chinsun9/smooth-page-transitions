@@ -4,7 +4,7 @@
   "description": "- [Smooth Page Transitions With Javascript Tutorial](https://www.youtube.com/watch?v=1dJT-99KpiI) 따라하기",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html"
   },
   "repository": {
     "type": "git",
@@ -18,11 +18,11 @@
   },
   "homepage": "https://github.com/chinsun9/smooth-page-transitions#readme",
   "devDependencies": {
-    "cssnano": "^5.0.3",
-    "sass": "^1.32.13"
+    "cssnano": "^5.0.6",
+    "sass": "^1.35.2"
   },
   "dependencies": {
     "@dogstudio/highway": "^2.2.1",
-    "gsap": "^3.6.0"
+    "gsap": "^3.7.0"
   }
 }
